@@ -18,6 +18,8 @@ This project is an OBS media source file selector that uses a TCP server to rece
 
 ### For compiled .exe file download .exe and skip to 2. **Send commands to the server:**
 
+Otherwise continue with:
+
 ### Manual installation
 1. **Clone the repository:**
 
