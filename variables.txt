@@ -1,0 +1,6 @@
+Media_Folder: C:\Path_To\Media\Folder
+Media_Name: DynamicMedia<--As name of source layer (not scene)
+OBS_IP: 127.0.0.1
+OBS_Port: 4455
+OBS_Pass: Your_Password
+TCP_Port: 12345 

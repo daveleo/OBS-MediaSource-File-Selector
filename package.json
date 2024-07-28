@@ -1,0 +1,23 @@
+{
+    "name": "obs-server",
+    "version": "1.0.0",
+    "description": "OBS Server to play custom file names on single Media Source",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "obs-websocket-js": "^5.0.5",
+        "ws": "^8.2.3"
+    },
+    "bin": "server.js",
+    "pkg": {
+        "scripts": "server.js",
+        "assets": "variables.txt",
+        "targets": [
+            "node16-linux-x64",
+            "node16-macos-x64",
+            "node16-win-x64"
+        ]
+    }
+}
