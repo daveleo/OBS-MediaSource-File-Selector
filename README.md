@@ -68,18 +68,7 @@ node OBS_Server.js
 
 ### Sending a command
 
-Use any TCP client to send a command to the server. For example, you can use `telnet` or any TCP client application to send the name of the media file:
-
-```sh
-telnet 127.0.0.1 12345
-```
-
-Then, send the media file name:
-
-```sh
-001.mp4
-```
-
+Use any TCP client to send a command to the server. For example, you can use [Packet Sender](https://packetsender.com/download) or any TCP client application to send the name of the media file
 ## Contributing
 
 If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
